@@ -1,0 +1,39 @@
+               成线管理系统
+一 需求分析
+ 1 老师可以录入成绩
+ 2 学生可以查成绩。
+
+ 二 数据库设计
+ 1 学生档案student
+  ID={int|autoadd|primary key}
+  name={char}
+  sex={男|女}
+  major={char}
+  grade={2014|2015|2016}
+  class={char}
+
+ 2 学生成绩score
+ id={int|autoadd|primary key}
+ studentname={char}
+ china={int}
+ maths={int}
+
+
+3 老师档案teacher
+id={int|autoadd|primary key}
+name={char}
+sex={男|女}
+
+三 页面设计
+1 前端。
+  学生查成绩
+2 后端
+  老师录入成绩
+
+四 ui设计
+
+
+
+
+
+

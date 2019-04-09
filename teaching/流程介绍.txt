@@ -1,0 +1,21 @@
+1. 本次使用frameset后台结构。
+
+2. 登录功能使用user数据表登录，需选择表中job权限提交菜单，且登陆后会跳转到相应不同的窗口，教师登录home.html，可增删改查；学生登录home2.html，只可查看搜索。
+   登录使用session功能。
+
+3. 搜索查看信息功能均使用ajax获取mysql数据库（分数）与普通的数据库搜索操作（学生与教师信息），在前端以表格形式展示。
+
+4. 登录注册模块：login_reg.php , login_save.php , reg_save.php ，center_back.php，center_student_back.php
+   改密模块：change_password.php, change_password_save.php
+   注销模块：delete_user.php, delete_user_save.php
+   搜索模块：select.php, seek_save.php
+   查看模块：index.php,index_student.php
+   修改模块：update.php, update_tea_save.php, update_stu_save.php, update_grade_save.php, edit.php, edit_grade_save.php
+   教师录入删除模块：teacherdoc.php, teacherdoc_save.php, delete_tea_save.php
+   学生录入删除模块：studentdoc.php, studentdoc_save.php, delete_stu_save.php
+   成绩录入删除模块：record.php, record_save.php,delete_grade_save.php, edit_deletegrade_save.php
+   教师登录后frameset界面：home.html (包含main.php,tomemu.php)
+   学生登录后frameset界面：home2.html (包含main2.php,tomemu2.php)
+
+5. 其他：表单检验空值，id重复。
+   
